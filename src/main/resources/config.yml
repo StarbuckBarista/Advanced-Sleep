@@ -1,0 +1,40 @@
+################################################################################
+#               _                               _    _____ _                 
+#      /\      | |                             | |  / ____| |                
+#     /  \   __| |_   ____ _ _ __   ___ ___  __| | | (___ | | ___  ___ _ __  
+#    / /\ \ / _` \ \ / / _` | '_ \ / __/ _ \/ _` |  \___ \| |/ _ \/ _ \ '_ \ 
+#   / ____ \ (_| |\ V / (_| | | | | (_|  __/ (_| |  ____) | |  __/  __/ |_) |
+#  /_/    \_\__,_| \_/ \__,_|_| |_|\___\___|\__,_| |_____/|_|\___|\___| .__/ 
+#                                                                     | |    
+#                                                                     |_|       
+################################################################################
+
+# The list of worlds that you are able to
+# sleep in
+worlds:
+- world
+
+# The delay in seconds that a player must sit in bed
+# before being able to wake up in the morning
+delay: 5
+
+# The permision node needed to be able to use Advanced Sleep
+permission: advancedsleep.sleep
+
+# Whether on not a broascast should be made
+# whenever a player goes to sleep
+broadcast_sleep: true
+
+# The message shown to players whenever
+# a player goes to sleep
+# {player} - Player's Username
+# {world} - Player's World
+broadcast_message: "&e{player} went to sleep in {world}!"
+
+# The message shown in console whenever the plugin
+# is successfully enabled
+enable_message: "&f[&e&lAdvanced&6&lSleep&f] >> &aSuccessfully Enabled"
+
+# The message shown in console whenever the plugin
+# is successfully disabled
+disable_message: "&f[&e&lAdvanced&6&lSleep&f] >> &cSuccessfully Disabled"

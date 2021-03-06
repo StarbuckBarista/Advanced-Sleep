@@ -1,0 +1,10 @@
+name: AdvancedSleep
+version: 0.1
+main: vb.$advancedsleep.PluginMain
+author: StarbuckBarista
+api-version: 1.13
+commands:
+  reload:
+    description: Reload the AdvancedSleep configuration file
+    permission: advancedsleep.reload
+    permission-message: &cYou do not have permission to run this command!
